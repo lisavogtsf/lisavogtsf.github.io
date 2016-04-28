@@ -2,6 +2,9 @@
 .img-responsive.logo {
   padding: 20% 5%;
 }
+#intro .item h1 {
+  margin-bottom: 10px;
+}
 /*
 
 =====================
