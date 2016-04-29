@@ -182,8 +182,9 @@ INTRO
 /*#intro {
   position: relative;
   height: 100%;
-}
-#intro .item {
+}*/
+
+/*#intro .item {
   height: 100%;
   background: url('../img/home.jpg') center center no-repeat;
   -webkit-background-size: cover;
@@ -191,18 +192,23 @@ INTRO
   -o-background-size: cover;
   background-size: cover;
   -webkit-backface-visibility: hidden;
+}*/
+
+/*orients the image so left remains visible at all times*/
+#intro .item {
+  background-position-x: 0%; 
 }
-#intro .item .logo {
+/*#intro .item .logo {
   margin-bottom: 120px;
   opacity: 0;
   filter: alpha(opacity=0);
   -webkit-backface-visibility: hidden;
-}
-@media (max-width: 767px) {
+}*/
+/*@media (max-width: 767px) {
   #intro .item .logo {
     margin-bottom: 50px;
   }
-}
+}*/
 #intro .item h1 {
   font-size: 60px;
   color: #fff;
@@ -212,7 +218,7 @@ INTRO
   filter: alpha(opacity=0);
   -webkit-backface-visibility: hidden;
 }
-@media (max-width: 991px) {
+/*@media (max-width: 991px) {
   #intro .item h1 {
     font-size: 40px;
   }
@@ -221,7 +227,7 @@ INTRO
   #intro .item h1 {
     font-size: 35px;
   }
-}
+}*/
 #intro .item h2 {
   color: #fff;
   margin-bottom: 120px;
@@ -243,15 +249,21 @@ INTRO
     margin-bottom: 40px;
   }
 }
+
+/* overriding bootstrap */
+
 #intro .item .carousel-caption {
-  left: 0;
-  right: 0;
+/*  left: 0;
+  right: 0;*/
+  bottom: auto;
+  top: 100px;
 }
-#intro .container,
+/*#intro .container,
 #intro .row {
   height: 100%;
   position: relative;
 }*/
+
 /*
 
 =====================
