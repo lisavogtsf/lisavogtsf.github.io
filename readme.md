@@ -1,37 +1,102 @@
-Hello,
+# [lisavogtsf.github.io](http://lisavogtsf.github.io "lisavogtsf.github.io")
 
-thank you for downloading IT Worker.
-
-
-*Everything is kept simple so you should not have any problems implementing the template. I will try to answer few of the possible questions below.*
+### [a project/portfolio page for Lisa Vogt](http://lisavogtsf.github.io "lisavogtsf.github.io")
 
 
-**Changing the colour of the theme**
 
-Every colour variant has its appropriate stylesheets located in the /css directory. To change the colour of the template simply change the path in the header of the HTML template, i.e. from *style.default.css* to *style.pink.css*.
+text reduction of site as of f2a2ac:
+
+LISA VOGT
+INTRO
+PROJECTS
+CONNECT
+
+[Golden gate bridge with fog]
+
+Lisa Vogt
+As a software engineer with a background in educational technology and technology education, I care deeply about the way we communicate our ideas.
+
+PROJECTS
+web development
+
+All | Front-end | Full-Stack
+
+[WWF edu logo image]
+Words with friends for the Classroom
+WORDS WITH FRIENDS EDU
+
+[img/words-edu-yellow.png,img/words-edu-chalkboard-lion.jpg,img/words-edu-chalkboard-tiler.jpg]
+
+A web-based adaptation and expansion of Words With Friends game for 4th - 8th grade students to use in the classroom.
+
+Followed separation of concerns (SoC) design principle to create Page, Widget, and WidgetView structures using JavaScript inheritance patterns to ensure modular and componentized codebase.
+
+Constructed tutorial system to transform 80+ steps in JSON data into visual displays mimicking game actions.
+
+Adapted Power Words page to use Hogan templates for various game states as student 'unlocked' definitions.
+
+Recognized mouse hovering over tiles using JavaScript event listeners, adding highlights built with HTML5 and CSS3 as a gameboard object to ensure proper scaling and placement within board.
+
+Implemented UI/UX reconception design using LESS, configuration files, and new assets to overhaul game look and feel while maintaining backwards compatibility with commercial codebase.
+
+VISIT WEBSITE
+WATCH TRAILER  
+VIEW WHITE PAPER
+----
+[image of app name from mobile app screen]
+Visualizer for Uber surge pricing
+SURGEPROTECTOR
+
+[img/surgeprotector-home.png,img/surgeprotector-choose-mobile.png,img/surgeprotector-login.png,img/surgeprotector-about.png]
+
+Uber surge pricing monitoring and visualization platform displaying data for user-selected locations over a week's time.
+
+Queried the Uber API for ride prices, using Google Maps to extrapolate sample routes from individual points.
+
+Managed data using Ruby on Rails to track interrelations of locations, price queries, price results over time.
+
+Deployed to Heroku, curated records in PostgresQL, and migrated database to new Ubuntu "Cedar-14" stack.
+
+ VISIT WEBSITE  
+ VIEW CODE
+---
+[backbeat cover image]
+Angular website for rebranding
+BACKBEAT NETWORKS
+
+[img/backbeat_contact_postcard_front.png,img/backbeat_HOME_01_05_2015.jpg]
+Architected company site using AngularJS, with custom controllers to render home, contact, and about views.
+
+Collaborated with graphic designer for re-branding and implementation of mockups using Flexbox and LESS.
+
+Managed version control of development using Perforce for improved handling of graphics and binary files.
+----
+[Fist of five title and info image]
+SMS feedback tool for classrooms
+FIST OF FIVE
+
+[img/fist-of-five-rspec-poll.jpg,img/fist-of-five-angular-poll.jpg,img/fist-of-five.jpg]
+
+Classroom feedback tool allowing instructors to poll students confidentially and display aggregate results publicly.
+
+Leveraged Ruby on Rails to control app logic, to integrate data into views, and to facilitate RESTful routing.
+
+Made use of ActiveRecord to manipulate interrelated database tables for users, courses, polls, and poll replies.
+
+Integrated Twilio API to send poll prompts and process poll replies of 0-5 or long-form text via SMS.
+
+ VISIT WEBSITE  
+ VIEW CODE
+-----
+
+[social/link icons]
+github, linkedin, twitter, email
+
+© 2016 Lisa Vogt. All rights reserved.
 
 
-**Javascript**
-
-Apart from Bootstrap JS components majority of JS is located in /js/front.js. In this file you can change the settings of the owl carousel, google maps settings etc. 
-
-**Google Maps**
-
-Google maps are used on the contact page. If you need just to show location of the company on the map, the only neccessary thing is to change coordinates in the header of contact.html. For further settings and possibilities please consult [Google Maps API documentation](https://developers.google.com/maps/documentation/javascript/).
-
-**Contact form**
-
-To set up contact form:
-
-1. Upload a template to your webhosting or set up HTTP server on your local machine (XAMPP, WAMP or similar).
-2. Make directory php/temp writeable (change attributes to 777)
-3. Edit the options in contact.php file. The most important are: `$from` and `$sendTo`. The rest can remain as it is.
-
-Thank you for downloading!
-
-In case you would need some custom modifications, don't hesitate to get in touch.
-
-ondrique, (ahoj@ondrejsvestka.cz)
+Based on IT Worker template:
+Bootstrapios and ondrique, (ahoj@ondrejsvestka.cz)
 
 ## Credits ##
 
@@ -61,18 +126,3 @@ ondrique, (ahoj@ondrejsvestka.cz)
 **Images**
 
 - Markus Spiske ([https://www.flickr.com/photos/125167502@N02/](https://www.flickr.com/photos/125167502@N02/))
-
-## Changelog ##
-
-    
-    **Version 1.0**
-    
-    Initial release
-
-
-
-
-
-
-
-
