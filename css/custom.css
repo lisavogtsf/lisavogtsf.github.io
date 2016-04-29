@@ -199,9 +199,18 @@ INTRO
 @media (max-width: 767px) {
   #intro .item .logo {
     margin-bottom: auto;
-    margin-top: 15px;
+    margin-top: 40px;
+  }
+  img {
+    width: 150px;
   }
 }
+/*@media (max-width: 1199px) {
+  #intro .item .logo {
+    margin-bottom: auto;
+    margin-top: 15px;
+  }
+}*/
 /*#intro .item h1 {
   font-size: 60px;
   color: #fff;
@@ -223,7 +232,7 @@ INTRO
 }*/
 #intro .item h2 {
   /*color: #fff;*/
-  margin-bottom: 60px;
+  margin-bottom: 10px;
   /*font-weight: 400;*/
   /*opacity: 0;*/
   /*filter: alpha(opacity=0);*/
@@ -231,22 +240,23 @@ INTRO
 }
 @media (max-width: 767px) {
   #intro .item h2 {
-    /*font-size: 25px;*/
-    margin-bottom: 20px;
-    padding: 0 30px;
+    font-size: 20px;
+    margin-top: 10px;
+    /*padding: 0 30px;*/
   }
 }
-@media (max-width: 1199px) {
+/*@media (max-width: 1199px) {
   #intro .item h2 {
-    /*font-size: 25px;*/
+    font-size: 25px;
     margin-bottom: 40px;
   }
+}*/
+#intro .item .carousel-caption {
+  /*  left: 0;
+  right: 0;*/
+  bottom: 0;
 }
-/*#intro .item .carousel-caption {
-  left: 0;
-  right: 0;
-}
-#intro .container,
+/*#intro .container,
 #intro .row {
   height: 100%;
   position: relative;
