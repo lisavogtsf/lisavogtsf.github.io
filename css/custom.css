@@ -434,6 +434,7 @@ WORKS / REFERENCES
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }*/
+/*hides title text on overaly, adjusts vertical display of description text*/
 .reference-item .reference a .overlay h3 {
   display: none;
   /*text-transform: uppercase;*/
