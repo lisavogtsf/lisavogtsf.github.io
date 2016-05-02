@@ -55,7 +55,7 @@ Queried the Uber API for ride prices, using Google Maps to extrapolate sample ro
 
 Managed data using Ruby on Rails to track interrelations of locations, price queries, price results over time.
 
-Deployed to Heroku, curated records in PostgresQL, and migrated database to new Ubuntu "Cedar-14" stack.
+Deployed to Heroku, curated records in PostgreSQL, and migrated database to new Ubuntu "Cedar-14" stack.
 
  VISIT WEBSITE  
  VIEW CODE
